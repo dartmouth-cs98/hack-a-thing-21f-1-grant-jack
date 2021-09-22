@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Chrome Extension",
   "version": "1.0",
   "content_scripts": [
@@ -7,8 +7,11 @@
         "matches": [
           "<all_urls>"
         ],
-        "js": ["content.js"],
+        "js": ["scripts/content.js"],
         "run_at": "document_end"
      }
-  ]
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
 }
