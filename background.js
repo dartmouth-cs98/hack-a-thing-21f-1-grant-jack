@@ -13,17 +13,16 @@ function setup() {
     function sendText() {
         //Value got from input field in popup
         message = userinputFrom.value();
-        otherMessage = userinputTo.value();
         //Sending message to content
         chrome.tabs.query({active: true,currentWindow:true},function(tabs){
             chrome.tabs.sendMessage(tabs[0].id,{fromMessage: message});
         });
     }
     function sendTextTo(){
-        otherMessage = userinputTo.value();
+        message = userinputTo.value();
         //Sending message to content
         chrome.tabs.query({active: true,currentWindow:true},function(tabs){
-            chrome.tabs.sendMessage(tabs[0].id,{otherMessage: otherMessage});
+            chrome.tabs.sendMessage(tabs[0].id,{toMessage: message});
         });
     }
 }
