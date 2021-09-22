@@ -1,6 +1,6 @@
 {
   "manifest_version" : 2,
-  "name" : "Paragraph Replacer",
+  "name" : "Our Project",
   "version" : "0.001",
   "background" : {
   "scripts" : 
