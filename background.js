@@ -14,7 +14,6 @@ function setup() {
         //Value got from input field in popup
         message = userinputFrom.value();
         otherMessage = userinputTo.value();
-        console.log(otherMessage)
         //Sending message to content
         chrome.tabs.query({active: true,currentWindow:true},function(tabs){
             chrome.tabs.sendMessage(tabs[0].id,message);
