@@ -1,0 +1,8 @@
+{
+    "plugins": [
+        "html"
+    ],
+    "env": {
+        "es6": true
+    }
+}
