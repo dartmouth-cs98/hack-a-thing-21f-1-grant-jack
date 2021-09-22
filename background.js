@@ -7,7 +7,7 @@ function setup() {
     userinputTo = select('#change_to');
     
     userinputFrom.input(sendText);
-
+    userinputTo.input(sendTextTo);
 
 
     function sendText() {
@@ -18,6 +18,13 @@ function setup() {
         //Sending message to content
         chrome.tabs.query({active: true,currentWindow:true},function(tabs){
             chrome.tabs.sendMessage(tabs[0].id,message);
+        });
+    }
+    function sendTextTo(){
+        otherMessage = userinputTo.value();
+        //Sending message to content
+        chrome.tabs.query({active: true,currentWindow:true},function(tabs){
+            chrome.tabs.sendMessage(tabs[0].id,otherMessage);
         });
     }
 }
