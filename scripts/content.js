@@ -27,7 +27,9 @@ function swap(from, to) {
 var fromMessage = ""
 var toMessage = ""
 
+document.getElementById("subBut").onclick = swap(fromMessage, toMessage);
 console.log("Chrome Extension ready to go!");
+
 chrome.runtime.onMessage.addListener(replace);
 //Replace
 function replace(message, sender, sendresponse) {
@@ -44,7 +46,5 @@ function replace(message, sender, sendresponse) {
   //   elt.innerText = fromMessage.concat(toMessage);
   // }
   text = document.getElementsByTagName('*');
-
-  swap(fromMessage, toMessage);
 
 }
