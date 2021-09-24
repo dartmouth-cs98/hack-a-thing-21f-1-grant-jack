@@ -16,6 +16,7 @@ Include some screenshots.
 ## Who Did What?
 
 Grant - initial setup of chrome extension, popup logic, proof of concept (swapping hardcoded phrases)
+
 Jack - javascript / eventListener logic, communication between html and script
 
 
