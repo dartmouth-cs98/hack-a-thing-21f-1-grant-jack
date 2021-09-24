@@ -10,7 +10,7 @@ For example - a user could change an instance of the phrase "stock market" on th
 We were not successful - after 5+ tutorials on relevant problems and 10+ hours of coding/iterating, we dropped it out of frustration.
 
 Include some screenshots.
-[How?](https://help.github.com/articles/about-readmes/#relative-links-and-image-paths-in-readme-files)
+![image](https://user-images.githubusercontent.com/56173414/134601920-cd02f41c-b463-4afa-bcef-993f336be724.png)
 
 ## Who Did What?
 
