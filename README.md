@@ -3,23 +3,34 @@
 
 ## What you built? 
 
-TODO: Short description of what you attempted to build
+A chrome extension that enables a user to change a given word or phrase on a webpage to a different word or phrase. 
+
+For example - a user could change an instance of the phrase "stock market" on the New York Times home page to the phrase "cryptocurrency lottery."
+
+We were not successful - after 5+ tutorials on relevant problems and 10+ hours of coding/iterating, we dropped it out of frustration.
 
 Include some screenshots.
 [How?](https://help.github.com/articles/about-readmes/#relative-links-and-image-paths-in-readme-files)
 
 ## Who Did What?
 
-TODO: who worked on what part?
+Grant - initial setup of chrome extension, popup logic, proof of concept (swapping hardcoded phrases)
+Jack - javascript / eventListener logic, communication between html and script
+
 
 ## What you learned
 
-TODO: what worked / what didn't work
+Coding in pure javascript is really, really annoying. I will probably not attempt it again. JS tutorials that worked five years ago may not work today, and pure JS is both hard to debug and understand if all you have used previously are JS frameworks. 
 
 ## Authors
 
-TODO: list of authors
+Grant Dumanian
+Jack Vasu
 
 ## Acknowledgments
 
-TODO: cite any tutorials followed here
+https://heptagon.in/2019/03/08/how-to-build-a-chrome-extension-chapter-4-replacing-paragraph-text-with-user-given-text/
+https://developer.chrome.com/docs/extensions/mv3/getstarted/
+https://www.section.io/engineering-education/how-to-build-chrome-extension/
+https://neilpatel.com/blog/chrome-extension/
+https://9to5google.com/2015/06/14/how-to-make-a-chrome-extensions/
